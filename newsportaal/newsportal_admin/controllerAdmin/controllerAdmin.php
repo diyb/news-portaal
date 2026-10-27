@@ -1,6 +1,6 @@
 <?php
 class controllerAdmin {
-
+    
     public static function formLoginSite() {
         include_once('viewAdmin/formLogin.php');
     }
