@@ -6,7 +6,7 @@ class Controller {
         $arr = News::getLast10News();
         include_once 'view/start.php';
     }
-
+    
     public static function AllCategory() {
         $arr = Category::getAllCategory();
         include_once 'view/category.php';
