@@ -28,6 +28,5 @@ class News{
         $n = $db->getOne($query);
         return $n;
     }
-
 }
 ?>
